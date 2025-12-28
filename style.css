@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(58, 63, 63);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p#contador {
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+button#adicionar {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 16pt;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px 0 white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button#resetarContagem {
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+button#resetarContagem>img {
+    width: 40px;
+    height: 30px;
+}
